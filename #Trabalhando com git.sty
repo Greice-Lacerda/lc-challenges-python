@@ -1,0 +1,27 @@
+#Trabalhando com git
+git config --global user.name "Greice Lacerda"
+git config --global user.email "greicelacerda@gmail.com"
+git clone - cola um código copiadogit init - inicializa um repositorio
+
+#Estados do git
+untracked - não rastreado ou identificado.
+unmodified - não modificado.
+modified - modificado.
+staged - organizado.
+
+git status - olha o histórico de modificações do git.
+git add .\(nome do arquivo) - adiciona o arquivo a pasta.
+git diff - mostra as linha de comando modificadas.
+git commit -m "(nome do arquivo)" - salva o arquivo em staged.
+git log - mostra o historico dos ultimos commit do arquivo.
+git restore .\(nome do arquivo) 
+git restore --stage(area onde será colocado) .\(nome do arquivo) 
+Os git nas linhas 17 e 18 resturam o arquivo a versão anterior ou desfaz modificações.
+Usei o formato txt.
+
+##Repositórios remotos - aula 7
+git remote - verifica o repositório remoto.
+git push origin master - envia para a nuvem
+git pull - puxa o repositorio e junta com o código (mescla sem perguntar)
+git fetch - verifica as alterações do código antes do git pull.
+git diff origin master - verifica o que será modificado.
